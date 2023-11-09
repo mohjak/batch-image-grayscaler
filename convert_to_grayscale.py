@@ -19,7 +19,7 @@ def convert_to_grayscale(input_folder, output_folder):
             grayscale_img = img.convert('L')
 
             # Construct the output file path
-            grayscale_file_name = f'{file_name}_grayscale'
+            grayscale_file_name = f'grayscale_{file_name}'
             grayscale_file_path = os.path.join(output_folder, grayscale_file_name)
 
             # Save the grayscale image
